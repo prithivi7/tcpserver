@@ -6,6 +6,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN node server.js
+CMD node server.js
 
 EXPOSE 1234
